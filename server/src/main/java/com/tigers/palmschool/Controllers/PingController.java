@@ -1,4 +1,4 @@
-package com.tigers.palmschool.controllers;
+package com.tigers.palmschool.Controllers;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
