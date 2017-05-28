@@ -1,6 +1,5 @@
 package com.tigers.palmschool.Core;
 
-import com.tigers.palmschool.Models.HotTopicModel;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -51,13 +50,10 @@ public class BbsService {
 
             return "This top ten topics.";
         } catch (Exception ex) {
-            throw;
+
         }
 
         return "test";
     }
 
-    private HotTopicModel ParseApiModelFromHtml(String content){
-
-    }
 }
